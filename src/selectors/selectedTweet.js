@@ -1,0 +1,1 @@
+export const selectedTweet = (tweets, selection) => tweets[selection];

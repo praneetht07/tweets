@@ -1,0 +1,15 @@
+.home {
+  width: 100%;
+  display: flex;
+  position: relative;
+
+  &__left {
+    display: inline-block;
+    width: 40%;
+  }
+
+  &__right {
+    display: inline-block;
+    width: 60%;
+  }
+}

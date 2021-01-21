@@ -1,0 +1,37 @@
+.header {
+  height: 8rem;
+  background: $color-grey-dark-2;
+  color: $color-white;
+
+  &__title {
+    display: inline-block;
+    width: 30rem;
+    height: 100%;
+    text-align: center;
+    padding: 2.4rem;
+    font-weight: bold;
+    font-size: 2.4rem;
+    border-right: 1px solid $color-white;
+  }
+
+  &__contents {
+    display: inline-block;
+    margin-left: 15%;
+    > div {
+      display: inline-block;
+      font-size: 2rem;
+      font-weight: bold;
+      padding: 1.1rem;
+      width: 20rem;
+      text-align: center;
+      cursor: pointer;
+      &:not(:first-child) {
+        margin-left: 2rem;
+      }
+    }
+  }
+
+  &__selected {
+    border-bottom: 0.6rem solid $color-white;
+  }
+}
